@@ -1,0 +1,122 @@
+html{
+	font-family: sans-serif;
+}
+/* styling the main content of the site*/
+body,section,div{
+	margin: 0;
+	padding: 0;
+	
+}
+
+/* styling the header of the site*/
+.header_one{
+	background: blue;
+	color: white;
+	border-bottom: 5px solid red;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	
+}
+.header_one h2{
+	text-align: center;
+	text-shadow: 5px 5px 10px orange;
+}
+.header_one p{
+	text-align: center;
+}
+/* styling the navigation bar*/
+ul{
+ list-style-type: none;
+ margin-top: 5px;
+ padding: 0;
+ background: blue;
+ overflow: hidden;
+	
+}
+a:link, a:visited{
+	display: block;
+	background: blue;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	
+	
+	}
+   li {
+   float: right;
+	}	
+		
+a:hover{
+	background: green;
+}
+/*  article styling*/
+
+
+.news{
+float: left;
+width: 75%;	
+}
+.news header h2{
+	text-align: center;
+	text-shadow: 2px 2px 10px red;
+	font-size: 50px;
+	margin-bottom: 10px;
+
+}
+.news p{
+ margin-left: 20px;
+}
+aside .myads{
+	margin: 10px;
+}
+
+aside{
+float: right;
+width: 25;
+
+}
+/* styling the images in the site*/
+
+.myimage{
+	width: 100px;
+	height: 100px;
+}
+
+.images{
+	display: flex;
+	clear: both;
+	margin: 10px;
+}
+.images div img{
+	margin-right: 100px;
+}
+/* styling the images in the site*/
+.footer{
+	
+	height: 200px;
+	background: blue;
+	color: white;
+	text-align: center;
+}
+.foot_footer{
+	display: inline-block;
+	margin-left: 80px;
+	text-align: center;
+
+}
+.foot_footer1 li{
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+.foot_footer li{
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+
+
+
